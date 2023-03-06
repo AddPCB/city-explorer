@@ -32,6 +32,18 @@ Estimate of time needed to complete: 30 minutes
 
 Start time: 14:00
 
-Finish time: 14:25
+Finish time: 14:45
 
-Actual time needed to complete: 25 minutes
+Actual time needed to complete: 45 minutes
+
+### Task 2
+
+Name of feature: 'Explore!' button
+
+Estimate of time needed to complete: 30 minutes
+
+Start time: 14:45
+
+Finish time: 15:--
+
+Actual time needed to complete: -- minutes
