@@ -7,7 +7,7 @@ function App() {
   const [searchQuery, setSearchQuery] = useState("");
 
   async function getLocation() {
-    const API = `https://us1.locationiq.com/v1/search.php?key=${process.env.REACT_APP_CITY_KEY}&q=${searchQuery}&format=json`;
+    const API = `https://eu1.locationiq.com/v1/search.php?key=${process.env.REACT_APP_CITY_KEY}&q=${searchQuery}&format=json`;
     const res = await axios.get(API);
     console.log(res.data[0]);
     setLocation(res.data[0]);
