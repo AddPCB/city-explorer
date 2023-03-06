@@ -1,4 +1,3 @@
-import "./App.css";
 import axios from "axios";
 import { useState } from "react";
 // pk.3da8c3af41699906d03f117603c105ae
