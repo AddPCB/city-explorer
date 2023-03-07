@@ -6,7 +6,7 @@ function App() {
   const [searchQuery, setSearchQuery] = useState("");
 
   async function getLocation() {
-    const response = await axios.get(`.netlify/functions/location?searchQuery=${searchQuery}`);
+    const response = await axios.get(`netlify/functions/location?searchQuery=${searchQuery}`);
     setLocation(response.data);
   }
 
