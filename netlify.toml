@@ -1,12 +1,14 @@
 [build]
   command = "npm run build"
   publish = "build"
-  functions = "netlify/functions/"
+  functions = ".netlify/functions/"
 
 [dev]
   command = "npm start"
   publish = "public"
-  functions = "netlify/functions/"
+  functions = "functions/"
+  Port= 8888
+  functionsPort= 3333
 
 [[redirects]]
   from = "/*"
@@ -14,6 +16,6 @@
   status = 200
 
 [[redirects]]
-  from = "netlify/functions/*"
-  to = "netlify/functions/:splat"
+  from = "functions/*"
+  to = "functions/:splat"
   status = 200
